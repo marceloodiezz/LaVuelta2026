@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+
+<etapa>
+    <nombre>Alcaraz a Elche de la Sierra</nombre>
+
+    <numero>10</numero>
+    
+    <longitud unidad="km">184.7</longitud>
+    
+    <fecha>2026-09-01</fecha>
+    
+    <tiempoGanador>04:07:41</tiempoGanador>
+    
+    <velocidadMedia unidad="km/h">44.74</velocidadMedia>
+    
+    <desnivel unidad="m">2991</desnivel>
+    
+    <salida>
+        <lugar>Alcaraz</lugar>
+        <coordenadas>
+            <longitudGeografica unidad="grados">-2.4926058</longitudGeografica>
+            <latitudGeografica unidad="grados">38.6701929</latitudGeografica>
+            <altitud unidad="m">839</altitud>
+        </coordenadas>
+    </salida>
+
+    <meta>
+        <lugar>Elche de la Sierra</lugar>
+        <coordenadas>
+            <longitudGeografica unidad="grados">-2.0495278</longitudGeografica>
+            <latitudGeografica unidad="grados">38.4521389</latitudGeografica>
+            <altitud unidad="m">644</altitud>
+        </coordenadas>
+    </meta>
+    
+    <tipo>Ondulada</tipo>
+    
+    <referencias>
+        <referencia>https://www.lavuelta.es/es/etapa-10</referencia>
+        <referencia>https://alcaraz.es/</referencia>
+        <referencia>https://elchedelasierra.es/</referencia>
+    </referencias>
+    
+    <galeriaFotos>
+        <fotografia>../multimedia/alcaraz.jpg</fotografia>
+        <fotografia>../multimedia/elche-de-la-sierra.jpg</fotografia>
+    </galeriaFotos>
+
+    <galeriaVideos>
+        <video>../multimedia/final-etapa.mp4</video>
+    </galeriaVideos>
+
+    <galeriaSonidos>
+        <sonido>../multimedia/final-etapa.mp3</sonido>
+    </galeriaSonidos>
+
+    <hitos>
+        <puerto categoria="tercera">
+            <nombreHito>Puerto del Peralejo</nombreHito>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.3059682</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4926808</latitudGeografica>
+                <altitud unidad="m">1132</altitud>
+            </coordenadas>
+            <distancia unidad="km">47.6</distancia>
+        </puerto>
+
+        <puerto categoria="tercera">
+            <nombreHito>Puerto de Aýna</nombreHito>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0373940</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5805260</latitudGeografica>
+                <altitud unidad="m">950</altitud>
+            </coordenadas>
+            <distancia unidad="km">86.3</distancia>
+        </puerto>
+
+        <sprint tipo="intermedio">
+            <nombreHito>Hellín</nombreHito>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7020840</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5087420</latitudGeografica>
+                <altitud unidad="m">546</altitud>
+            </coordenadas>
+            <distancia unidad="km">125.0</distancia>
+        </sprint>
+
+        <sprint tipo="bonificado">
+            <nombreHito>Hellín</nombreHito>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7020840</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5087420</latitudGeografica>
+                <altitud unidad="m">546</altitud>
+            </coordenadas>
+            <distancia unidad="km">125.0</distancia>
+        </sprint>
+
+        <puerto categoria="tercera">
+            <nombreHito>Puerto de Socovos</nombreHito>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9896330</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3380090</latitudGeografica>
+                <altitud unidad="m">782</altitud>
+            </coordenadas>
+            <distancia unidad="km">163.3</distancia>
+        </puerto>
+    </hitos>
+
+    <trazado>
+
+        <punto>
+            <nombrePunto>Alcaraz (Salida)</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.4926058</longitudGeografica>
+                <latitudGeografica unidad="grados">38.6701929</latitudGeografica>
+                <altitud unidad="m">839</altitud>
+            </coordenadas>
+            <distancia unidad="km">0</distancia>
+        </punto>
+
+        <punto>
+            <nombrePunto>Puerto del Peralejo</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.3059682</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4926808</latitudGeografica>
+                <altitud unidad="m">1132</altitud>
+            </coordenadas>
+            <distancia unidad="km">47.6</distancia>
+        </punto>
+
+        <punto>
+            <nombrePunto>Puerto de Aýna</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0373940</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5805260</latitudGeografica>
+                <altitud unidad="m">950</altitud>
+            </coordenadas>
+            <distancia unidad="km">86.3</distancia>
+        </punto>
+
+        <punto>
+            <nombrePunto>Hellín</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7020840</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5087420</latitudGeografica>
+                <altitud unidad="m">546</altitud>
+            </coordenadas>
+            <distancia unidad="km">125.0</distancia>
+        </punto>
+
+        <punto>
+            <nombrePunto>Hellín</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7020840</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5087420</latitudGeografica>
+                <altitud unidad="m">546</altitud>
+            </coordenadas>
+            <distancia unidad="km">125.0</distancia>
+        </punto>
+
+        <punto>
+            <nombrePunto>Puerto de Socovos</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9896330</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3380090</latitudGeografica>
+                <altitud unidad="m">782</altitud>
+            </coordenadas>
+            <distancia unidad="km">163.3</distancia>
+        </punto>
+
+        <punto>
+            <nombrePunto>Elche de la Sierra (Meta)</nombrePunto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0495278</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4521389</latitudGeografica>
+                <altitud unidad="m">644</altitud>
+            </coordenadas>
+            <distancia unidad="km">184.7</distancia>
+        </punto>
+
+    </trazado>
+
+    <clasificacionEtapa>
+        <clasificado posicion="1">
+            <nombreCorredor>Bastien Tronchon</nombreCorredor>
+            <nombreEquipo>Groupama-FDJ United</nombreEquipo>
+            <diferencia>00:00:00</diferencia>
+        </clasificado>
+
+        <clasificado posicion="2">
+            <nombreCorredor>Magnus Cort Nielsen</nombreCorredor>
+            <nombreEquipo>Uno-X Mobility</nombreEquipo>
+            <diferencia>00:00:00</diferencia>
+        </clasificado>
+
+        <clasificado posicion="3">
+            <nombreCorredor>Thibau Nys</nombreCorredor>
+            <nombreEquipo>Lidl-Trek</nombreEquipo>
+            <diferencia>00:00:00</diferencia>
+        </clasificado>
+    </clasificacionEtapa>
+
+    <clasificacionGeneral>
+        <clasificado posicion="1">
+            <nombreCorredor>Enric Mas</nombreCorredor>
+            <nombreEquipo>Movistar Team</nombreEquipo>
+            <diferencia>00:00:00</diferencia>
+        </clasificado>
+
+        <clasificado posicion="2">
+            <nombreCorredor>Primoz Roglic</nombreCorredor>
+            <nombreEquipo>Red Bull - Bora - Hansgrohe</nombreEquipo>
+            <diferencia>00:01:18</diferencia>
+        </clasificado>
+
+        <clasificado posicion="3">
+            <nombreCorredor>Felix Gall</nombreCorredor>
+            <nombreEquipo>Decathlon CMA CGM Team</nombreEquipo>
+            <diferencia>00:01:39</diferencia>
+        </clasificado>
+    </clasificacionGeneral>
+
+    <clasificacionEquipos>
+        <equipoClasificado posicion="1">
+            <nombreEquipo>Decathlon CMA CGM Team</nombreEquipo>
+            <diferencia>00:00:00</diferencia>
+        </equipoClasificado>
+
+        <equipoClasificado posicion="2">
+            <nombreEquipo>Netcompany INEOS Cycling Team</nombreEquipo>
+            <diferencia>00:42:55</diferencia>
+        </equipoClasificado>
+
+        <equipoClasificado posicion="3">
+            <nombreEquipo>XDS Astana Team</nombreEquipo>
+            <diferencia>00:50:12</diferencia>
+        </equipoClasificado>
+    </clasificacionEquipos>
+
+</etapa>

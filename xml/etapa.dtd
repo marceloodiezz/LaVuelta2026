@@ -1,0 +1,99 @@
+﻿<!ELEMENT etapa (nombre,
+                numero,
+                longitud,
+                fecha,
+                tiempoGanador,
+                velocidadMedia,
+                desnivel,
+                salida,
+                meta,
+                tipo,
+                referencias,
+                galeriaFotos,
+                galeriaVideos,
+                galeriaSonidos,
+                hitos,
+                trazado,
+                clasificacionEtapa,
+                clasificacionGeneral,
+                clasificacionEquipos)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud unidad CDATA #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT tiempoGanador (#PCDATA)>
+
+<!ELEMENT velocidadMedia (#PCDATA)>
+<!ATTLIST velocidadMedia unidad CDATA #REQUIRED>
+
+<!ELEMENT desnivel (#PCDATA)>
+<!ATTLIST desnivel unidad CDATA #REQUIRED>
+
+<!ELEMENT salida (lugar, coordenadas)>
+<!ELEMENT meta (lugar, coordenadas)>
+
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT coordenadas (longitudGeografica, latitudGeografica, altitud)>
+
+<!ELEMENT longitudGeografica (#PCDATA)>
+<!ATTLIST longitudGeografica unidad CDATA #REQUIRED>
+
+<!ELEMENT latitudGeografica (#PCDATA)>
+<!ATTLIST latitudGeografica unidad CDATA #REQUIRED>
+
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidad CDATA #REQUIRED>
+
+
+<!ELEMENT tipo (#PCDATA)>
+
+<!ELEMENT referencias (referencia, referencia, referencia, referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT galeriaFotos (fotografia+)> <!-- De momento ponemos solo el limite inferior (+). El limite superior lo definiremos mas adelante -->
+<!ELEMENT fotografia (#PCDATA)>
+
+<!ELEMENT galeriaVideos (video+)> <!-- De momento ponemos solo el limite inferior (+). El limite superior lo definiremos mas adelante -->
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT galeriaSonidos (sonido+)> <!-- De momento ponemos solo el limite inferior (+). El limite superior lo definiremos mas adelante -->
+<!ELEMENT sonido (#PCDATA)>
+
+<!ELEMENT hitos (puerto|sprint)+> 
+
+<!ELEMENT puerto (nombreHito, coordenadas, distancia)>
+<!ATTLIST puerto categoria (primera|segunda|tercera|especial|bonificado) #REQUIRED>
+
+<!ELEMENT nombreHito (#PCDATA)>
+
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidad CDATA #REQUIRED>
+
+<!ELEMENT sprint (nombreHito, coordenadas, distancia)>
+<!ATTLIST sprint tipo (intermedio|bonificado) #REQUIRED>
+
+<!ELEMENT trazado (punto+)>
+<!ELEMENT punto (nombrePunto?, coordenadas, distancia)>
+<!ELEMENT nombrePunto (#PCDATA)>
+
+<!ELEMENT clasificacionEtapa (clasificado, clasificado, clasificado)>
+
+<!ELEMENT clasificado (nombreCorredor, nombreEquipo, diferencia)>
+<!ATTLIST clasificado posicion CDATA #REQUIRED>
+
+<!ELEMENT nombreCorredor (#PCDATA)>
+<!ELEMENT nombreEquipo (#PCDATA)>
+<!ELEMENT diferencia (#PCDATA)>
+
+<!ELEMENT clasificacionGeneral (clasificado, clasificado, clasificado)>
+
+<!ELEMENT clasificacionEquipos (equipoClasificado, equipoClasificado, equipoClasificado)>
+
+<!ELEMENT equipoClasificado (nombreEquipo, diferencia)>
+<!ATTLIST equipoClasificado posicion CDATA #REQUIRED>
