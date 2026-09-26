@@ -120,6 +120,96 @@
         </punto>
 
         <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5281028</longitudGeografica>
+                <latitudGeografica unidad="grados">38.6640072</latitudGeografica>
+                <altitud unidad="m">841</altitud>
+            </coordenadas>
+            <distancia unidad="km">3.5</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5662550</longitudGeografica>
+                <latitudGeografica unidad="grados">38.6445256</latitudGeografica>
+                <altitud unidad="m">815</altitud>
+            </coordenadas>
+            <distancia unidad="km">8.0</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5651421</longitudGeografica>
+                <latitudGeografica unidad="grados">38.6213755</latitudGeografica>
+                <altitud unidad="m">839</altitud>
+            </coordenadas>
+            <distancia unidad="km">10.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5617965</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5997948</latitudGeografica>
+                <altitud unidad="m">895</altitud>
+            </coordenadas>
+            <distancia unidad="km">13.6</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5145830</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5770554</latitudGeografica>
+                <altitud unidad="m">1048</altitud>
+            </coordenadas>
+            <distancia unidad="km">19.0</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5023923</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5568621</latitudGeografica>
+                <altitud unidad="m">1085</altitud>
+            </coordenadas>
+            <distancia unidad="km">21.8</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.5097056</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5152807</latitudGeografica>
+                <altitud unidad="m">1251</altitud>
+            </coordenadas>
+            <distancia unidad="km">27.0</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.4534654</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5030588</latitudGeografica>
+                <altitud unidad="m">1000</altitud>
+            </coordenadas>
+            <distancia unidad="km">32.7</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.3985286</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4890987</latitudGeografica>
+                <altitud unidad="m">931</altitud>
+            </coordenadas>
+            <distancia unidad="km">38.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.3579869</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4829232</latitudGeografica>
+                <altitud unidad="m">950</altitud>
+            </coordenadas>
+            <distancia unidad="km">42.4</distancia>
+        </punto>
+
+        <punto>
             <nombrePunto>Puerto del Peralejo</nombrePunto>
             <coordenadas>
                 <longitudGeografica unidad="grados">-2.3059682</longitudGeografica>
@@ -127,6 +217,123 @@
                 <altitud unidad="m">1132</altitud>
             </coordenadas>
             <distancia unidad="km">47.6</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.2650634</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4949451</latitudGeografica>
+                <altitud unidad="m">1058</altitud>
+            </coordenadas>
+            <distancia unidad="km">51.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.2202702</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4835433</latitudGeografica>
+                <altitud unidad="m">974</altitud>
+            </coordenadas>
+            <distancia unidad="km">56.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.2110618</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5069179</latitudGeografica>
+                <altitud unidad="m">1052</altitud>
+            </coordenadas>
+            <distancia unidad="km">60.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.1865278</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5212241</latitudGeografica>
+                <altitud unidad="m">1128</altitud>
+            </coordenadas>
+            <distancia unidad="km">63.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.1615859</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5277345</latitudGeografica>
+                <altitud unidad="m">1010</altitud>
+            </coordenadas>
+            <distancia unidad="km">66.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.1312977</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5216610</latitudGeografica>
+                <altitud unidad="m">995</altitud>
+            </coordenadas>
+            <distancia unidad="km">69.5</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.1159779</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5332750</latitudGeografica>
+                <altitud unidad="m">1025</altitud>
+            </coordenadas>
+            <distancia unidad="km">71.7</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.1043319</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5376988</latitudGeografica>
+                <altitud unidad="m">977</altitud>
+            </coordenadas>
+            <distancia unidad="km">73.1</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.1215547</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5456351</latitudGeografica>
+                <altitud unidad="m">802</altitud>
+            </coordenadas>
+            <distancia unidad="km">75.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0846695</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5500441</latitudGeografica>
+                <altitud unidad="m">654</altitud>
+            </coordenadas>
+            <distancia unidad="km">79.1</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0846695</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5500441</latitudGeografica>
+                <altitud unidad="m">654</altitud>
+            </coordenadas>
+            <distancia unidad="km">79.1</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0697780</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5534712</latitudGeografica>
+                <altitud unidad="m">763</altitud>
+            </coordenadas>
+            <distancia unidad="km">80.8</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0671724</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5679334</latitudGeografica>
+                <altitud unidad="m">854</altitud>
+            </coordenadas>
+            <distancia unidad="km">82.7</distancia>
         </punto>
 
         <punto>
@@ -140,13 +347,93 @@
         </punto>
 
         <punto>
-            <nombrePunto>Hellín</nombrePunto>
             <coordenadas>
-                <longitudGeografica unidad="grados">-1.7020840</longitudGeografica>
-                <latitudGeografica unidad="grados">38.5087420</latitudGeografica>
-                <altitud unidad="m">546</altitud>
+                <longitudGeografica unidad="grados">-2.0268454</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5945657</latitudGeografica>
+                <altitud unidad="m">909</altitud>
             </coordenadas>
-            <distancia unidad="km">125.0</distancia>
+            <distancia unidad="km">88.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9693962</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5771661</latitudGeografica>
+                <altitud unidad="m">803</altitud>
+            </coordenadas>
+            <distancia unidad="km">93.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9455826</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5528902</latitudGeografica>
+                <altitud unidad="m">757</altitud>
+            </coordenadas>
+            <distancia unidad="km">97.6</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9150729</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5513356</latitudGeografica>
+                <altitud unidad="m">638</altitud>
+            </coordenadas>
+            <distancia unidad="km">100.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.8027205</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5269217</latitudGeografica>
+                <altitud unidad="m">635</altitud>
+            </coordenadas>
+            <distancia unidad="km">111.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7611983</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5123943</latitudGeografica>
+                <altitud unidad="m">565</altitud>
+            </coordenadas>
+            <distancia unidad="km">115.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7319264</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5173126</latitudGeografica>
+                <altitud unidad="m">549</altitud>
+            </coordenadas>
+            <distancia unidad="km">118.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7081492</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5356624</latitudGeografica>
+                <altitud unidad="m">598</altitud>
+            </coordenadas>
+            <distancia unidad="km">121.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7037477</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5193812</latitudGeografica>
+                <altitud unidad="m">575</altitud>
+            </coordenadas>
+            <distancia unidad="km">123.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.6969545</longitudGeografica>
+                <latitudGeografica unidad="grados">38.5110434</latitudGeografica>
+                <altitud unidad="m">545</altitud>
+            </coordenadas>
+            <distancia unidad="km">124.5</distancia>
         </punto>
 
         <punto>
@@ -157,6 +444,141 @@
                 <altitud unidad="m">546</altitud>
             </coordenadas>
             <distancia unidad="km">125.0</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7590608</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4820762</latitudGeografica>
+                <altitud unidad="m">467</altitud>
+            </coordenadas>
+            <distancia unidad="km">131.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.7905555</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4659178</latitudGeografica>
+                <altitud unidad="m">428</altitud>
+            </coordenadas>
+            <distancia unidad="km">134.8</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.8084771</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4479655</latitudGeografica>
+                <altitud unidad="m">488</altitud>
+            </coordenadas>
+            <distancia unidad="km">137.5</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.8144191</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4402370</latitudGeografica>
+                <altitud unidad="m">503</altitud>
+            </coordenadas>
+            <distancia unidad="km">138.6</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.8449744</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4411735</latitudGeografica>
+                <altitud unidad="m">558</altitud>
+            </coordenadas>
+            <distancia unidad="km">141.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.8662871</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4322313</latitudGeografica>
+                <altitud unidad="m">508</altitud>
+            </coordenadas>
+            <distancia unidad="km">143.7</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.8838870</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4201235</latitudGeografica>
+                <altitud unidad="m">459</altitud>
+            </coordenadas>
+            <distancia unidad="km">145.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9147799</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4225058</latitudGeografica>
+                <altitud unidad="m">511</altitud>
+            </coordenadas>
+            <distancia unidad="km">148.8</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9321579</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4153645</latitudGeografica>
+                <altitud unidad="m">542</altitud>
+            </coordenadas>
+            <distancia unidad="km">150.6</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9349202</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4008363</latitudGeografica>
+                <altitud unidad="m">510</altitud>
+            </coordenadas>
+            <distancia unidad="km">152.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9251717</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3946078</latitudGeografica>
+                <altitud unidad="m">448</altitud>
+            </coordenadas>
+            <distancia unidad="km">153.6</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9328461</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3849392</latitudGeografica>
+                <altitud unidad="m">532</altitud>
+            </coordenadas>
+            <distancia unidad="km">155.0</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9526507</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3570485</latitudGeografica>
+                <altitud unidad="m">604</altitud>
+            </coordenadas>
+            <distancia unidad="km">158.8</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9688522</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3558760</latitudGeografica>
+                <altitud unidad="m">674</altitud>
+            </coordenadas>
+            <distancia unidad="km">160.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9765158</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3445423</latitudGeografica>
+                <altitud unidad="m">735</altitud>
+            </coordenadas>
+            <distancia unidad="km">161.8</distancia>
         </punto>
 
         <punto>
@@ -167,6 +589,132 @@
                 <altitud unidad="m">782</altitud>
             </coordenadas>
             <distancia unidad="km">163.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0091134</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3533883</latitudGeografica>
+                <altitud unidad="m">684</altitud>
+            </coordenadas>
+            <distancia unidad="km">166.1</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0176312</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3654972</latitudGeografica>
+                <altitud unidad="m">636</altitud>
+            </coordenadas>
+            <distancia unidad="km">167.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0045655</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3723811</latitudGeografica>
+                <altitud unidad="m">654</altitud>
+            </coordenadas>
+            <distancia unidad="km">169.5</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0096044</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3846452</latitudGeografica>
+                <altitud unidad="m">601</altitud>
+            </coordenadas>
+            <distancia unidad="km">171.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0007725</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3880967</latitudGeografica>
+                <altitud unidad="m">603</altitud>
+            </coordenadas>
+            <distancia unidad="km">172.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0052235</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3904590</latitudGeografica>
+                <altitud unidad="m">623</altitud>
+            </coordenadas>
+            <distancia unidad="km">172.7</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-1.9964506</longitudGeografica>
+                <latitudGeografica unidad="grados">38.3963991</latitudGeografica>
+                <altitud unidad="m">611</altitud>
+            </coordenadas>
+            <distancia unidad="km">173.9</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0080064</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4040974</latitudGeografica>
+                <altitud unidad="m">564</altitud>
+            </coordenadas>
+            <distancia unidad="km">175.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0028445</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4093225</latitudGeografica>
+                <altitud unidad="m">512</altitud>
+            </coordenadas>
+            <distancia unidad="km">176.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0147251</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4102516</latitudGeografica>
+                <altitud unidad="m">486</altitud>
+            </coordenadas>
+            <distancia unidad="km">177.5</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0256851</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4223718</latitudGeografica>
+                <altitud unidad="m">529</altitud>
+            </coordenadas>
+            <distancia unidad="km">179.4</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0217294</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4275283</latitudGeografica>
+                <altitud unidad="m">527</altitud>
+            </coordenadas>
+            <distancia unidad="km">180.2</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0400703</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4349921</latitudGeografica>
+                <altitud unidad="m">573</altitud>
+            </coordenadas>
+            <distancia unidad="km">182.3</distancia>
+        </punto>
+
+        <punto>
+            <coordenadas>
+                <longitudGeografica unidad="grados">-2.0439233</longitudGeografica>
+                <latitudGeografica unidad="grados">38.4416891</latitudGeografica>
+                <altitud unidad="m">605</altitud>
+            </coordenadas>
+            <distancia unidad="km">183.2</distancia>
         </punto>
 
         <punto>
