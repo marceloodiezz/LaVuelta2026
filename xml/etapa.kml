@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>Etapa 10 - Alcaraz a Elche de la Sierra</name>
+        <Style id="salidaMeta">
+            <IconStyle>
+                <color>ff0e27ed</color>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="puerto">
+            <IconStyle>
+                <color>ff2bc430</color>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="sprint">
+            <IconStyle>
+                <color>ffedc52f</color>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="anonimo">
+            <IconStyle>
+                <color>ff00e6ff</color>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="ruta">
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <name>Recorrido de la etapa</name>
+            <styleUrl>#ruta</styleUrl>
+            <LineString>
+                <extrude>0</extrude>
+                <tessellate>1</tessellate>
+                <coordinates>-2.4926058,38.6701929,839
+-2.5662550,38.6445256,815
+-2.5617965,38.5997948,895
+-2.5023923,38.5568621,1085
+-2.5097056,38.5152807,1251
+-2.3985286,38.4890987,931
+-2.3059682,38.4926808,1132
+-2.2202702,38.4835433,974
+-2.1865278,38.5212241,1128
+-2.1312977,38.5216610,995
+-2.1043319,38.5376988,977
+-2.1215547,38.5456351,802
+-2.0697780,38.5534712,763
+-2.0373940,38.5805260,950
+-2.0268454,38.5945657,909
+-1.9455826,38.5528902,757
+-1.8027205,38.5269217,635
+-1.7319264,38.5173126,549
+-1.7081492,38.5356624,598
+-1.7020840,38.5087420,546
+-1.8144191,38.4402370,503
+-1.8449744,38.4411735,558
+-1.8838870,38.4201235,459
+-1.9321579,38.4153645,542
+-1.9251717,38.3946078,448
+-1.9526507,38.3570485,604
+-1.9688522,38.3558760,674
+-1.9896330,38.3380090,782
+-2.0045655,38.3723811,654
+-2.0096044,38.3846452,601
+-1.9964506,38.3963991,611
+-2.0147251,38.4102516,486
+-2.0217294,38.4275283,527
+-2.0495278,38.4521389,644</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </LineString>
+        </Placemark>
+        <Placemark>
+            <name>Salida - Alcaraz</name>
+            <description>Salida de la etapa</description>
+            <styleUrl>#salidaMeta</styleUrl>
+            <Point>
+                <coordinates>-2.4926058,38.6701929,839</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Meta - Elche de la Sierra</name>
+            <description>Meta de la etapa</description>
+            <styleUrl>#salidaMeta</styleUrl>
+            <Point>
+                <coordinates>-2.0495278,38.4521389,644</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto del Peralejo</name>
+            <description>Puerto de categoría tercera - km 47.6</description>
+            <styleUrl>#puerto</styleUrl>
+            <Point>
+                <coordinates>-2.3059682,38.4926808,1132</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Aýna</name>
+            <description>Puerto de categoría tercera - km 86.3</description>
+            <styleUrl>#puerto</styleUrl>
+            <Point>
+                <coordinates>-2.0373940,38.5805260,950</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Puerto de Socovos</name>
+            <description>Puerto de categoría tercera - km 163.3</description>
+            <styleUrl>#puerto</styleUrl>
+            <Point>
+                <coordinates>-1.9896330,38.3380090,782</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sprint - Hellín</name>
+            <description>Sprint intermedio - km 125.0</description>
+            <styleUrl>#sprint</styleUrl>
+            <Point>
+                <coordinates>-1.7020840,38.5087420,546</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 1</name>
+            <description>Punto del recorrido - km 8.0</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.5662550,38.6445256,815</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 2</name>
+            <description>Punto del recorrido - km 13.6</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.5617965,38.5997948,895</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 3</name>
+            <description>Punto del recorrido - km 21.8</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.5023923,38.5568621,1085</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 4</name>
+            <description>Punto del recorrido - km 27.0</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.5097056,38.5152807,1251</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 5</name>
+            <description>Punto del recorrido - km 38.3</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.3985286,38.4890987,931</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 6</name>
+            <description>Punto del recorrido - km 56.9</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.2202702,38.4835433,974</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 7</name>
+            <description>Punto del recorrido - km 63.4</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.1865278,38.5212241,1128</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 8</name>
+            <description>Punto del recorrido - km 69.5</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.1312977,38.5216610,995</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 9</name>
+            <description>Punto del recorrido - km 73.1</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.1043319,38.5376988,977</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 10</name>
+            <description>Punto del recorrido - km 75.2</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.1215547,38.5456351,802</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 11</name>
+            <description>Punto del recorrido - km 80.8</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.0697780,38.5534712,763</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 12</name>
+            <description>Punto del recorrido - km 88.2</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.0268454,38.5945657,909</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 13</name>
+            <description>Punto del recorrido - km 97.6</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.9455826,38.5528902,757</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 14</name>
+            <description>Punto del recorrido - km 111.2</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.8027205,38.5269217,635</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 15</name>
+            <description>Punto del recorrido - km 118.2</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.7319264,38.5173126,549</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 16</name>
+            <description>Punto del recorrido - km 121.3</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.7081492,38.5356624,598</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 17</name>
+            <description>Punto del recorrido - km 138.6</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.8144191,38.4402370,503</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 18</name>
+            <description>Punto del recorrido - km 141.4</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.8449744,38.4411735,558</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 19</name>
+            <description>Punto del recorrido - km 145.9</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.8838870,38.4201235,459</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 20</name>
+            <description>Punto del recorrido - km 150.6</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.9321579,38.4153645,542</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 21</name>
+            <description>Punto del recorrido - km 153.6</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.9251717,38.3946078,448</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 22</name>
+            <description>Punto del recorrido - km 158.8</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.9526507,38.3570485,604</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 23</name>
+            <description>Punto del recorrido - km 160.3</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.9688522,38.3558760,674</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 24</name>
+            <description>Punto del recorrido - km 169.5</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.0045655,38.3723811,654</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 25</name>
+            <description>Punto del recorrido - km 171.2</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.0096044,38.3846452,601</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 26</name>
+            <description>Punto del recorrido - km 173.9</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-1.9964506,38.3963991,611</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 27</name>
+            <description>Punto del recorrido - km 177.5</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.0147251,38.4102516,486</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Punto 28</name>
+            <description>Punto del recorrido - km 180.2</description>
+            <styleUrl>#anonimo</styleUrl>
+            <Point>
+                <coordinates>-2.0217294,38.4275283,527</coordinates>
+                <altitudeMode>absolute</altitudeMode>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE etapa SYSTEM "etapa.dtd">
 
-<etapa>
+<etapa 
+    xmlns="http://www.uniovi.es"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.uniovi.es etapa.xsd">
+
     <nombre>Alcaraz a Elche de la Sierra</nombre>
 
     <numero>10</numero>
@@ -10,7 +13,7 @@
     
     <fecha>2026-09-01</fecha>
     
-    <tiempoGanador>04:07:41</tiempoGanador>
+    <tiempoGanador>PT4H7M41S</tiempoGanador>
     
     <velocidadMedia unidad="km/h">44.74</velocidadMedia>
     

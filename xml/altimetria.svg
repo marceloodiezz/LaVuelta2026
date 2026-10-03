@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1200" height="750" viewBox="0 0 1200 750">
+    <text x="600.0" y="35" font-family="Arial, sans-serif" font-size="24" fill="#000000" font-weight="bold" text-anchor="middle">Etapa 10 - Alcaraz a Elche de la Sierra</text>
+    <line x1="100" y1="580.0" x2="1100" y2="580.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="585.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">0</text>
+    <line x1="100" y1="540.0" x2="1100" y2="540.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="545.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">200</text>
+    <line x1="100" y1="500.0" x2="1100" y2="500.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="505.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">400</text>
+    <line x1="100" y1="460.0" x2="1100" y2="460.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="465.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">600</text>
+    <line x1="100" y1="420.0" x2="1100" y2="420.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="425.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">800</text>
+    <line x1="100" y1="380.0" x2="1100" y2="380.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="385.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">1000</text>
+    <line x1="100" y1="340.0" x2="1100" y2="340.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="345.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">1200</text>
+    <line x1="100" y1="300.0" x2="1100" y2="300.0" stroke="#D0D0D0" stroke-width="1" />
+    <text x="88" y="305.0" font-family="Arial, sans-serif" font-size="12" fill="#444444" font-weight="normal" text-anchor="end">1400</text>
+    <text x="30" y="440.0" font-family="Arial, sans-serif" font-size="14" fill="#000000" font-weight="bold" text-anchor="middle" transform="rotate(-90 30 440.0)">Altitud (m)</text>
+    <line x1="100" y1="580" x2="1100" y2="580" stroke="#000000" stroke-width="1" />
+    <text x="600.0" y="635" font-family="Arial, sans-serif" font-size="14" fill="#000000" font-weight="bold" text-anchor="middle">Distancia (km)</text>
+    <polyline points="100.00,580.00 100.00,412.20 143.31,417.00 173.63,401.00 218.03,363.00 246.18,329.80 307.36,393.80 357.72,353.60 408.07,385.20 443.26,354.40 476.29,381.00 495.78,384.60 507.15,419.60 537.47,427.40 567.24,390.00 577.53,398.20 628.42,428.60 702.06,453.00 739.96,470.20 756.74,460.40 776.77,470.80 850.41,479.40 865.57,468.40 889.93,488.20 915.38,471.60 931.62,490.40 959.77,459.20 967.89,445.20 984.14,423.60 1017.70,449.20 1026.91,459.80 1041.53,457.80 1061.02,482.80 1075.64,474.60 1100.00,451.20 1100.00,580.00 100.00,580.00" stroke="#C41E0B" stroke-width="2" fill="#ED270E" fill-opacity="0.65" stroke-linejoin="round" />
+    <line x1="100.0" y1="267" x2="100.0" y2="580" stroke="#666666" stroke-width="1" />
+    <circle cx="100.0" cy="250" r="17" fill="#ED270E" />
+    <text x="100.0" y="256" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">S</text>
+    <text x="106.0" y="222" font-family="Arial, sans-serif" font-size="14" fill="#222222" font-weight="bold" text-anchor="start" transform="rotate(-90 106.0 222)">Alcaraz / 839 m</text>
+    <text x="100.0" y="608" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">0</text>
+    <line x1="357.71521386031407" y1="267" x2="357.71521386031407" y2="580" stroke="#666666" stroke-width="1" />
+    <circle cx="357.71521386031407" cy="250" r="17" fill="#30C42B" />
+    <text x="357.71521386031407" y="256" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">P</text>
+    <text x="363.71521386031407" y="222" font-family="Arial, sans-serif" font-size="14" fill="#222222" font-weight="bold" text-anchor="start" transform="rotate(-90 363.71521386031407 222)">Puerto del Peralejo / 1132 m</text>
+    <text x="357.71521386031407" y="608" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">47.6</text>
+    <line x1="567.2441797509475" y1="267" x2="567.2441797509475" y2="580" stroke="#666666" stroke-width="1" />
+    <circle cx="567.2441797509475" cy="250" r="17" fill="#30C42B" />
+    <text x="567.2441797509475" y="256" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">P</text>
+    <text x="573.2441797509475" y="222" font-family="Arial, sans-serif" font-size="14" fill="#222222" font-weight="bold" text-anchor="start" transform="rotate(-90 573.2441797509475 222)">Puerto de Aýna / 950 m</text>
+    <text x="567.2441797509475" y="608" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">86.3</text>
+    <line x1="984.1364374661614" y1="267" x2="984.1364374661614" y2="580" stroke="#666666" stroke-width="1" />
+    <circle cx="984.1364374661614" cy="250" r="17" fill="#30C42B" />
+    <text x="984.1364374661614" y="256" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">P</text>
+    <text x="990.1364374661614" y="222" font-family="Arial, sans-serif" font-size="14" fill="#222222" font-weight="bold" text-anchor="start" transform="rotate(-90 990.1364374661614 222)">Puerto de Socovos / 782 m</text>
+    <text x="984.1364374661614" y="608" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">163.3</text>
+    <line x1="776.773145641581" y1="267" x2="776.773145641581" y2="580" stroke="#666666" stroke-width="1" />
+    <circle cx="776.773145641581" cy="250" r="17" fill="#2FC5ED" />
+    <text x="776.773145641581" y="256" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">S</text>
+    <text x="782.773145641581" y="222" font-family="Arial, sans-serif" font-size="14" fill="#222222" font-weight="bold" text-anchor="start" transform="rotate(-90 782.773145641581 222)">Hellín / 546 m</text>
+    <text x="776.773145641581" y="608" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">125</text>
+    <line x1="1100.0" y1="267" x2="1100.0" y2="580" stroke="#666666" stroke-width="1" />
+    <circle cx="1100.0" cy="250" r="17" fill="#ED270E" />
+    <text x="1100.0" y="256" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">M</text>
+    <text x="1106.0" y="222" font-family="Arial, sans-serif" font-size="14" fill="#222222" font-weight="bold" text-anchor="start" transform="rotate(-90 1106.0 222)">Elche de la Sierra / 644 m</text>
+    <text x="1100.0" y="608" font-family="Arial, sans-serif" font-size="12" fill="#000000" font-weight="bold" text-anchor="middle">184.7</text>
+    <text x="600.0" y="690" font-family="Arial, sans-serif" font-size="20" fill="#000000" font-weight="bold" text-anchor="middle">Desnivel positivo: 2991 m</text>
+</svg>
