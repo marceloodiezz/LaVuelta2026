@@ -170,15 +170,12 @@
 	<!-- Tipo simple para poder aplicar restricciones al elemento 'tipo' -->
 	<xs:simpleType name="TipoRestriccion">
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="CRI"/>
-			<xs:enumeration value="CRE"/>
 			<xs:enumeration value="Llana"/>
-			<xs:enumeration value="Llana Final en Alto"/>
-			<xs:enumeration value="Montaña"/>
-			<xs:enumeration value="Media Montaña"/>
-			<xs:enumeration value="Media Montaña Final en Alto"/>
 			<xs:enumeration value="Ondulada"/>
-			<xs:enumeration value="Ondulada Final en Alto"/>
+			<xs:enumeration value="Media Montaña"/>
+			<xs:enumeration value="Montaña"/>
+			<xs:enumeration value="Contrarreloj individual"/>
+			<xs:enumeration value="Contrarreloj por equipos"/>
 		</xs:restriction>
 	</xs:simpleType>
 	
