@@ -1,13 +1,58 @@
-/* ***************************************/
-/*             LaVuelta2026              */
-/*          Estilos generales            */
-/* ***************************************/
-/*    DATOS ESTUDIANTE                   */
-/* --------------------------------------*/
-/*  Nombre y Apellidos:                  */
-/*  Correo electrónico (uniovi):         */
-/*  Grupo de laboratorio:                */
-/* ***************************************/
+/* ************************************************* */
+/*                    LaVuelta2026                   */
+/*                   Estilos generales               */
+/* ************************************************* */
+/*    DATOS ESTUDIANTE                               */
+/* ------------------------------------------------- */
+/*  Nombre y Apellidos: Marcelo Díez Domínguez       */
+/*  Correo electrónico (uniovi): UO293820@uniovi.es  */
+/*  Grupo de laboratorio: L.4                        */
+/* ************************************************* */
 
 
+/*
+ * Gama cromática del proyecto LaVuelta2026
+ *
+ * Color principal: Rojo oscuro (#8D151A)
+ *   - Contraste de 8.03:1 con el color secundario (#F5EDE4)
+ *   - Contraste de 9.31:1 con el color blanco (#FFFFFF)
+ *
+ * Color secundario: Marfil (#F5EDE4)
+ *   - Contraste de 8.03:1 con el color principal (#8D151A)
+ *   - Contraste de 18.11:1 con el color negro (#000000)
+ */
 
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #8D151A;
+    --color-secundario: #F5EDE4;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+
+/* Especificidad: 001 */
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001 */
+header, footer {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+/* Especificidad: 002 */
+header a, footer a {
+    color: var(--color-secundario);
+    background-color: var(--color-principal);
+}
+
+/* Especificidad: 001 */
+h2, h3, h4 {
+    color: var(--color-principal);
+    background-color: var(--color-blanco);
+}
