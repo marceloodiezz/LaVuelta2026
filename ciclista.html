@@ -22,12 +22,12 @@
 
     <header>
         <!-- Cabecera de la página -->
-        <h1>LaVuelta2026</h1>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
 
         <!-- Menú de navegación -->
         <nav>
             <a href="index.html" title="Página de inicio del proyecto LaVuelta2026">Inicio</a>
-            <a href="ciclista.html" title="Información sobre el ciclista">Ciclista</a>
+            <a href="ciclista.html" title="Información sobre el ciclista" aria-current="page">Ciclista</a>
             <a href="equipo.html" title="Información sobre el equipo">Equipo</a>
             <a href="etapa.html" title="Información sobre la etapa">Etapa</a>
             <a href="meteorologia.html" title="Información sobre la meteorología">Meteorología</a>
@@ -36,6 +36,13 @@
             <a href="ayuda.html" title="Ayuda de LaVuelta2026">Ayuda</a>
         </nav>
     </header>
+
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html" title="Página de Inicio">Inicio</a> &raquo;</li>
+            <li>Ciclista</li>
+        </ol>
+    </nav>
 
     <main>
 
@@ -46,11 +53,11 @@
             <h3>Datos personales</h3>
 
             <ul>
-                <li>Nombre completo: José Manuel Díaz Gallego</li>
-                <li>Fecha de nacimiento: 18/01/1995</li>
-                <li>País de nacimiento: España</li>
-                <li>Equipo: BURGOS-BURPELLET-BH</li>
-                <li>Dorsal: 195</li>
+                <li>José Manuel Díaz Gallego</li>
+                <li>18/01/1995</li>
+                <li>España</li>
+                <li>BURGOS-BURPELLET-BH</li>
+                <li>195</li>
             </ul>
 
             <picture>
@@ -78,36 +85,36 @@
 
             <table>
                 <tr>
-                    <th>Nombre del dato</th>
-                    <th>Resultado</th>
+                    <th id="carrera" scope="col">Carrera</th>
+                    <th id="posicion" scope="col">Posición</th>
                 </tr>
                 <tr>
-                    <td>Classic Grand Besançon Doubs</td>
-                    <td>2º</td>
+                    <th id="carrera1" scope="row">Classic Grand Besançon Doubs</th>
+                    <td headers="carrera1 posicion">2.º</td>
                 </tr>
                 <tr>
-                    <td>Tour du Jura Cycliste</td>
-                    <td>3º</td>
+                    <th id="carrera2" scope="row">Tour du Jura Cycliste</th>
+                    <td headers="carrera2 posicion">3.º</td>
                 </tr>
                 <tr>
-                    <td>Petronas Le Tour de Langkawi</td>
-                    <td>8º</td>
+                    <th id="carrera3" scope="row">Le Tour de Langkawi</th>
+                    <td headers="carrera3 posicion">8.º</td>
                 </tr>
                 <tr>
-                    <td>2ª etapa Vuelta a Andalucia Ruta Ciclista Del Sol</td>
-                    <td>10º</td>
+                    <th id="carrera4" scope="row">Etapa 2 - Vuelta a Andalucía</th>
+                    <td headers="carrera4 posicion">10.º</td>
                 </tr>
                 <tr>
-                    <td>4ª etapa Vuelta Asturias Julio Alvarez Mendo</td>
-                    <td>11º</td>
+                    <th id="carrera5" scope="row">Etapa 4 - Vuelta Asturias</th>
+                    <td headers="carrera5 posicion">11.º</td>
                 </tr>
                 <tr>
-                    <td>Vuelta a Andalucia Ruta Ciclista Del Sol</td>
-                    <td>12º</td>
+                    <th id="carrera6" scope="row">Vuelta a Andalucía</th>
+                    <td headers="carrera6 posicion">12.º</td>
                 </tr>
                 <tr>
-                    <td>1ª etapa Vuelta Asturias Julio Alvarez Mendo</td>
-                    <td>14º</td>
+                    <th id="carrera7" scope="row">Etapa 1 - Vuelta Asturias</th>
+                    <td headers="carrera7 posicion">14.º</td>
                 </tr>
             </table>
         </section>
@@ -124,7 +131,10 @@
                 <source src="multimedia/burgos-burpellet-bh.mp4" type="video/mp4" />
             </video>
 
-            <!-- AUDIO -->
+            <audio controls>
+                <source src="multimedia/historia-equipo.mp3" type="audio/mpeg">
+                <source src="multimedia/historia-equipo.wav" type="audio/wav">
+            </audio>
         </section>
 
     </main>

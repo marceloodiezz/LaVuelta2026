@@ -13,13 +13,13 @@
 /*
  * Gama cromática del proyecto LaVuelta2026
  *
- * Color principal: Rojo oscuro (#8D151A)
- *   - Contraste de 8.03:1 con el color secundario (#F5EDE4)
- *   - Contraste de 9.31:1 con el color blanco (#FFFFFF)
+ * Color principal: #8D151A
+ *   - Contraste de 8.03:1 (AAA) con el color secundario (#F5EDE4)
+ *   - Contraste de 9.31:1 (AAA) con el color blanco (#FFFFFF)
  *
- * Color secundario: Marfil (#F5EDE4)
- *   - Contraste de 8.03:1 con el color principal (#8D151A)
- *   - Contraste de 18.11:1 con el color negro (#000000)
+ * Color secundario: #F5EDE4
+ *   - Contraste de 8.03:1 (AAA) con el color principal (#8D151A)
+ *   - Contraste de 18.11:1 (AAA) con el color negro (#000000)
  */
 
 
@@ -31,7 +31,6 @@
     --color-blanco: #FFFFFF;
 }
 
-
 /* Especificidad: 001 */
 body {
     font-family: Verdana, Tahoma, sans-serif;
@@ -39,20 +38,79 @@ body {
     color: var(--color-negro);
 }
 
-/* Especificidad: 001 */
+/* Especificidad: 001, 001 */
 header, footer {
     background-color: var(--color-principal);
     color: var(--color-secundario);
 }
 
-/* Especificidad: 002 */
+/* Especificidad: 002, 002 */
 header a, footer a {
-    color: var(--color-secundario);
-    background-color: var(--color-principal);
+    color: var(--color-secundario); /* ADVERTENCIA: fondo rojo visible de header y footer --color-principal */
+    text-decoration-line: none;
+}
+
+/* Especificidad: 013 */
+header nav a[aria-current="page"] {
+    font-weight: bold;
+}
+
+/* Especificidad: 001, 001, 001 */
+h2, h3, h4 {
+    color: var(--color-principal); /* ADVERTENCIA: fondo blanco visible de body --color-blanco */
+}
+
+/* Especificidad: 003 */
+header + nav > ol {
+    font-size: 0.9em;
+    list-style-type: none;
+}
+
+/* Especificidad: 004 */
+header + nav > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 014 */
+header + nav > ol > li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) > ul > li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) > ul > li:nth-child(3) {
+    font-size: 1.2em;
+}
+
+/* Especificidad: 014 */
+section:has(picture) > ul > li:nth-child(4) {
+    font-weight: bold;
 }
 
 /* Especificidad: 001 */
-h2, h3, h4 {
+table {
+    border-collapse: collapse;
+}
+
+/* Especificidad: 001, 001 */
+th, td {
+    border: 1px solid var(--color-principal);
+    padding: 0.5em;
+}
+
+/* Especificidad: 002 */
+table th {
     color: var(--color-principal);
     background-color: var(--color-blanco);
+}
+
+/* Especificidad: 011 */
+th[scope="row"] {
+    text-align: left;
+    font-weight: normal;
 }
