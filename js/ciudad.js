@@ -37,7 +37,7 @@ class Ciudad {
         const seccion = document.querySelector("main > section");
 
         const parrafo = document.createElement("p");
-        parrafo.textContent = "Coordenadas: " + this.latitud + "°, " + Math.abs(this.longitud) + "°";
+        parrafo.textContent = "Coordenadas: " + this.latitud + "°, " + this.longitud + "°";
 
         seccion.appendChild(parrafo);
     }
