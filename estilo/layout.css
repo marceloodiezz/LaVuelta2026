@@ -60,10 +60,11 @@ body {
     display: grid;
     grid-template-areas:
         "cabecera"
+        "buscador"
         "migas"
         "contenido"
         "pie";
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto auto 1fr auto;
     margin: 0;
 }
 
@@ -82,8 +83,22 @@ header nav {
     gap: 0.75em;
 }
 
-/* Especificidad: 003 */
-body > header + nav {
+/* Especificidad: 002 */
+header > button {
+    display: none;
+}
+
+/* Especificidad: 001 */
+search {
+    grid-area: buscador;
+    justify-self: end;
+    padding: 0.5em;
+    margin: 1em;
+    border: 1px solid var(--color-principal); /* ADVERTENCIA: variable CSS definida en :root de estilo.css con el valor #8D151A */
+}
+
+/* Especificidad: 012 */
+body > nav[aria-label="migas"] {
     grid-area: migas;
 }
 
@@ -106,7 +121,8 @@ footer {
 /* Especificidad: 001 */
 form {
     width: 100%;
-    max-width: 40em;
+    max-width: 60em;
+    margin: 2em 0;
     box-sizing: border-box;
 }
 
@@ -114,7 +130,8 @@ form {
 form > fieldset {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 0.75em;
+    padding: 1.5em;
     min-width: 0;
 }
 
@@ -155,13 +172,26 @@ form > fieldset > button {
 
     /* Especificidad: 002 */
     header nav {
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        display: none; /* ADVERTENCIA: redefinición de la propiedad con valor original flex */
         width: 100%;
     }
 
-    /* Especificidad: 003 */
-    body > header + nav {
+    /* Especificidad: 012 */
+    header nav.abierto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    /* Especificidad: 002 */
+    header > button {
+        display: block; /* ADVERTENCIA: redefinición de la propiedad con valor original none */
+        margin-bottom: 1em;
+    }
+
+    /* Especificidad: 012 */
+    body > nav[aria-label="migas"] {
         display: none;
     }
 
@@ -180,8 +210,21 @@ form > fieldset > button {
 
     /* Especificidad: 002 */
     header nav {
-        flex-direction: column;
-        align-items: center;
+        display: none; /* ADVERTENCIA: redefinición de la propiedad con valor original none */
+    }
+
+    /* Especificidad: 012 */
+    header nav.abierto {
+        display: flex; /* ADVERTENCIA: redefinición de la propiedad con valor original none */
+        flex-direction: column; /* ADVERTENCIA: redefinición de la propiedad con valor original column */
+        align-items: center; /* ADVERTENCIA: redefinición de la propiedad con valor original center */
+        gap: 1em; /* ADVERTENCIA: redefinición de la propiedad con valor original 1em */
+    }
+
+    /* Especificidad: 002 */
+    header > button {
+        display: block; /* ADVERTENCIA: redefinición de la propiedad con valor original block */
+        margin-bottom: 1em; /* ADVERTENCIA: redefinición de la propiedad con valor original 1em */
     }
 }
 

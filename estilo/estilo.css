@@ -60,19 +60,19 @@ h2, h3, h4 {
     color: var(--color-principal); /* ADVERTENCIA: fondo blanco visible de body --color-blanco */
 }
 
-/* Especificidad: 003 */
-header + nav > ol {
+/* Especificidad: 012 */
+nav[aria-label="migas"] > ol {
     font-size: 0.9em;
     list-style-type: none;
 }
 
-/* Especificidad: 004 */
-header + nav > ol > li {
+/* Especificidad: 013 */
+nav[aria-label="migas"] > ol > li {
     display: inline;
 }
 
-/* Especificidad: 014 */
-header + nav > ol > li:last-child {
+/* Especificidad: 023 */
+nav[aria-label="migas"] > ol > li:last-child {
     font-weight: bold;
 }
 
@@ -113,4 +113,9 @@ table th {
 th[scope="row"] {
     text-align: left;
     font-weight: normal;
+}
+
+/* Especificidad: 011 */
+input[type="search"] {
+    border: none;
 }

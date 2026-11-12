@@ -16,6 +16,12 @@
     <!--Enlace a las hojas de estilo-->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <!-- Enlace al archivo JavaScript menu.js -->
+    <script src="js/menu.js" defer></script>
+
+    <!-- Enlace al archivo JavaScript buscador.js -->
+    <script src="js/buscador.js" defer></script>
 </head>
 
 <body>
@@ -23,6 +29,9 @@
     <header>
         <!-- Cabecera de la página -->
         <h1><a href="index.html">LaVuelta2026</a></h1>
+
+        <!-- Botón del menú para dispositivos móviles -->
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
 
         <!-- Menú de navegación -->
         <nav>
@@ -36,6 +45,14 @@
             <a href="ayuda.html" title="Ayuda de LaVuelta2026" aria-current="page">Ayuda</a>
         </nav>
     </header>
+
+    <!-- Buscador -->
+    <search aria-label="Buscador">
+        <label for="busqueda">
+            <img src="multimedia/buscador.png" alt="icono lupa" />
+        </label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
 
     <nav aria-label="migas">
         <ol>
@@ -65,7 +82,7 @@
         <section>
             <h3>Equipo</h3>
             <p>
-                Esta sección presenta información sobre el equipo BURGOS-BURPELLET-BH, incluyendo su nombre, código UCI, país, director y categoría. Estos datos se generan dinámicamente mediante JavaScript y se incluye un enlace a la ficha oficial del equipo en La Vuelta. También se muestra la alineación de ocho corredores, cada uno con una tarjeta que contiene su nombre, imagen, dorsal, fecha de nacimiento y nacionalidad.
+                Esta sección presenta información sobre el equipo BURGOS-BURPELLET-BH, incluyendo su nombre, código UCI, país, director y categoría. Estos datos se generan dinámicamente mediante JavaScript y se incluye un enlace a la ficha oficial del equipo en La Vuelta. También se muestra la alineación de ocho corredores, cada uno con una tarjeta que contiene su nombre, imagen, dorsal, fecha de nacimiento y nacionalidad. Esta información se obtiene de un fichero JSON local.
             </p>
         </section>
 
@@ -93,7 +110,7 @@
         <section>
             <h3>Juegos</h3>
             <p>
-                Esta sección contiene un juego de preguntas sobre la Etapa 10 (Alcaraz - Elche de la Sierra). El formulario permite responder preguntas sobre el número y la fecha de la etapa, los lugares de salida y llegada, el tipo de etapa, sus hitos, dificultad, longitud, desnivel y una breve descripción.
+                Esta sección contiene un juego de preguntas sobre la Etapa 10 (Alcaraz - Elche de la Sierra). El formulario permite responder preguntas sobre el número y la fecha de la etapa, los lugares de salida y llegada, el tipo de etapa, sus hitos, dificultad, longitud, desnivel y una breve descripción. Al enviar el formulario, JavaScript comprueba automáticamente las ocho preguntas evaluables y muestra la puntuación obtenida.
             </p>
         </section>
 

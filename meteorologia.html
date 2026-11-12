@@ -19,6 +19,12 @@
 
     <!-- Enlace al archivo JavaScript ciudad.js -->
     <script src="js/ciudad.js" defer></script>
+
+    <!-- Enlace al archivo JavaScript menu.js -->
+    <script src="js/menu.js" defer></script>
+
+    <!-- Enlace al archivo JavaScript buscador.js -->
+    <script src="js/buscador.js" defer></script>
 </head>
 
 <body>
@@ -26,6 +32,9 @@
     <header>
         <!-- Cabecera de la página -->
         <h1><a href="index.html">LaVuelta2026</a></h1>
+
+        <!-- Botón del menú para dispositivos móviles -->
+        <button type="button" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
 
         <!-- Menú de navegación -->
         <nav>
@@ -39,6 +48,14 @@
             <a href="ayuda.html" title="Ayuda de LaVuelta2026">Ayuda</a>
         </nav>
     </header>
+
+    <!-- Buscador -->
+    <search aria-label="Buscador">
+        <label for="busqueda">
+            <img src="multimedia/buscador.png" alt="icono lupa" />
+        </label>
+        <input type="search" id="busqueda" aria-label="Buscar" placeholder="Buscar..." />
+    </search>
 
     <nav aria-label="migas">
         <ol>
