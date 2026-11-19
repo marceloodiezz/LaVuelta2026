@@ -51,29 +51,16 @@ class Buscador {
 
         // Resaltar coincidencias
         resultados.forEach(nodo => {
-            const fragmento = document.createDocumentFragment();
-            const textoOriginal = nodo.textContent;
+            const partes = nodo.textContent.split(new RegExp(`(${busqueda})`, "gi"));
 
-            regexp.lastIndex = 0;
-            let inicio = 0;
-
-            for (const coincidencia of textoOriginal.matchAll(regexp)) {
-                fragmento.appendChild(
-                    document.createTextNode(textoOriginal.slice(inicio, coincidencia.index))
-                );
+            nodo.replaceWith(...partes.map((parte, indice) => {
+                if (indice % 2 === 0)
+                    return document.createTextNode(parte);
 
                 const marca = document.createElement("mark");
-                marca.textContent = coincidencia[0];
-                fragmento.appendChild(marca);
-
-                inicio = coincidencia.index + coincidencia[0].length;
-            }
-
-            fragmento.appendChild(
-                document.createTextNode(textoOriginal.slice(inicio))
-            );
-
-            nodo.replaceWith(fragmento);
+                marca.textContent = parte;
+                return marca;
+            }));
         });
     }
 

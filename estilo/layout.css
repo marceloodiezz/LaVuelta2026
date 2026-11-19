@@ -94,7 +94,7 @@ search {
     justify-self: end;
     padding: 0.5em;
     margin: 1em;
-    border: 1px solid var(--color-principal); /* ADVERTENCIA: variable CSS definida en :root de estilo.css con el valor #8D151A */
+    border: 1px solid;
 }
 
 /* Especificidad: 012 */
